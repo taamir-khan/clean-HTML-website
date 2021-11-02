@@ -80,11 +80,6 @@ int main(int argc,char* argv[])
    printf("%s", output);
    free(output);
    close(sid);
-   // TODO: Finish the function!
-   /* Namely: send the request via a GET (see PDF)
-      retrieve the response 
-      display it on the standard output
-   */
    return 0;
 }
 
