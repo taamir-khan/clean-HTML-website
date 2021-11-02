@@ -57,11 +57,7 @@ int main(int argc,char* argv[])
    
    dup2(sid, 0);
    execlp("html2text", "html2text", NULL);
-   // TODO: Finish the function!
-   /* Namely: send the request via a GET (see PDF)
-      retrieve the response 
-      display it on the standard output
-   */
+
    return 0;
 }
 
